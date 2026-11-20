@@ -1,0 +1,22 @@
+{
+  "epoch": "A2",
+  "seq": 2,
+  "rows": [
+    [
+      100,
+      "usable"
+    ],
+    [
+      125,
+      "usable"
+    ],
+    [
+      175,
+      "usable"
+    ],
+    [
+      225,
+      "rejected"
+    ]
+  ]
+}

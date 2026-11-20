@@ -1,0 +1,116 @@
+{
+  "/directory": [
+    [
+      200,
+      {
+        "round": 0,
+        "pages": [
+          [
+            "L",
+            "L1",
+            2,
+            "retained",
+            1
+          ],
+          [
+            "A",
+            "A1",
+            2,
+            "recycled",
+            0
+          ],
+          [
+            "A",
+            "A2",
+            2,
+            "retained",
+            1
+          ],
+          [
+            "A",
+            "A2",
+            3,
+            "writing",
+            4
+          ],
+          [
+            "B",
+            "B1",
+            8,
+            "retained",
+            2
+          ]
+        ]
+      }
+    ],
+    [
+      200,
+      {
+        "round": 1,
+        "pages": [
+          [
+            "L",
+            "L1",
+            2,
+            "recycled",
+            0
+          ],
+          [
+            "A",
+            "A2",
+            2,
+            "recycled",
+            0
+          ],
+          [
+            "A",
+            "A2",
+            3,
+            "retained",
+            2
+          ],
+          [
+            "B",
+            "B1",
+            8,
+            "retained",
+            1
+          ]
+        ]
+      }
+    ]
+  ],
+  "/pages/A2-03.json": [
+    [
+      409,
+      {
+        "state": "writing"
+      }
+    ],
+    [
+      200,
+      {
+        "epoch": "A2",
+        "seq": 3,
+        "rows": [
+          [
+            225,
+            "usable"
+          ],
+          [
+            275,
+            "usable"
+          ]
+        ]
+      }
+    ]
+  ],
+  "/pages/A1-02.json": [
+    [
+      410,
+      {
+        "state": "recycled"
+      }
+    ]
+  ]
+}

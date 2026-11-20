@@ -1,0 +1,54 @@
+[
+  {
+    "task": "C18",
+    "shift": "N4",
+    "length": 300,
+    "segments": [
+      {
+        "span": [
+          0,
+          100
+        ],
+        "required": [
+          "land"
+        ],
+        "points": [
+          25,
+          75
+        ]
+      },
+      {
+        "span": [
+          100,
+          200
+        ],
+        "required": [
+          "air",
+          "boat"
+        ],
+        "points": [
+          125,
+          175
+        ]
+      },
+      {
+        "span": [
+          200,
+          300
+        ],
+        "required": [
+          "air"
+        ],
+        "points": [
+          225,
+          275
+        ]
+      }
+    ],
+    "quotas": {
+      "L": 2,
+      "A": 3,
+      "B": 2
+    }
+  }
+]
