@@ -128,6 +128,29 @@
       }
     },
     {
+      "page": "A2-04",
+      "device": "air",
+      "epoch": "A2",
+      "sequence": 4,
+      "pass": "return",
+      "line": "T1",
+      "rough": [
+        150,
+        250
+      ],
+      "published": 1,
+      "version": "v1",
+      "size": 115,
+      "offers": {
+        "shore": {
+          "start": 0,
+          "end": 115,
+          "from": 1,
+          "until": 4
+        }
+      }
+    },
+    {
       "page": "B1-08",
       "device": "boat",
       "epoch": "B1",
@@ -244,6 +267,17 @@
         "start": 57,
         "end": 115,
         "file": "originals/pages/A2-03-v2.json"
+      }
+    ],
+    "A2-04": [
+      {
+        "link": "shore",
+        "version": "v1",
+        "from": 1,
+        "until": 4,
+        "start": 0,
+        "end": 115,
+        "file": "originals/pages/A2-04-v1.json"
       }
     ],
     "B1-08": [
