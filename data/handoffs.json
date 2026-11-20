@@ -1,29 +1,17 @@
 [
   {
-    "ref": "H37",
-    "task": "C18",
-    "span": [
-      200,
-      300
-    ],
-    "action": "issue",
-    "round": 1
+    "round": 3,
+    "action": "withdraw_observation",
+    "page": "A2-02",
+    "version": "v1",
+    "indexes": [
+      1
+    ]
   },
   {
-    "ref": "H37",
-    "action": "accept",
-    "round": 1
-  },
-  {
-    "ref": "H37",
+    "round": 6,
     "action": "field_evidence",
-    "round": 4,
-    "covered": [
-      [
-        225,
-        "air"
-      ]
-    ],
-    "file": "field/H37.json"
+    "trip": "sloop-3",
+    "file": "/field/H37"
   }
 ]

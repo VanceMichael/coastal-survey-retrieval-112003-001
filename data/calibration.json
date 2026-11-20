@@ -1,7 +1,10 @@
 [
   {
+    "round": 0,
     "card": "L0",
     "epoch": "L1",
+    "pass": "nearshore",
+    "line": "T1",
     "knots": [
       [
         0,
@@ -11,12 +14,14 @@
         100,
         100
       ]
-    ],
-    "round": 0
+    ]
   },
   {
+    "round": 0,
     "card": "A0",
     "epoch": "A2",
+    "pass": "out",
+    "line": "T1",
     "knots": [
       [
         0,
@@ -26,12 +31,14 @@
         200,
         200
       ]
-    ],
-    "round": 0
+    ]
   },
   {
+    "round": 0,
     "card": "B0",
     "epoch": "B1",
+    "pass": "shoal",
+    "line": "T1",
     "knots": [
       [
         0,
@@ -41,39 +48,40 @@
         100,
         100
       ]
-    ],
-    "round": 0
+    ]
   },
   {
+    "round": 2,
     "card": "A1",
     "epoch": "A2",
-    "supersedes": "A0",
+    "pass": "return",
+    "line": "T1",
     "knots": [
-      [
-        25,
-        25
-      ],
-      [
-        275,
-        275
-      ]
-    ],
-    "round": 2
-  },
-  {
-    "card": "B1a",
-    "epoch": "B1",
-    "supersedes": "B0",
-    "knots": [
-      [
-        0,
-        225
-      ],
       [
         100,
-        125
+        110
+      ],
+      [
+        300,
+        310
       ]
-    ],
-    "round": 3
+    ]
+  },
+  {
+    "round": 3,
+    "card": "B1a",
+    "epoch": "B1",
+    "pass": "shoal",
+    "line": "T2",
+    "knots": [
+      [
+        100,
+        100
+      ],
+      [
+        200,
+        200
+      ]
+    ]
   }
 ]

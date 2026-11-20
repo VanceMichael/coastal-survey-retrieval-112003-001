@@ -1,10 +1,12 @@
 {
-  "task": "C18",
-  "covered": [
-    [
-      225,
-      "air"
-    ]
-  ],
-  "observed": "2026-11-21T06:12:00+08:00"
+  "receipt": "H37",
+  "trip": "sloop-3",
+  "line": "T2",
+  "points": [
+    {
+      "segment": "S2",
+      "position": 125,
+      "evidence": "air"
+    }
+  ]
 }

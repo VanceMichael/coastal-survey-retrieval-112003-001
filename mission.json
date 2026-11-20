@@ -1,0 +1,320 @@
+{
+  "directory": [
+    {
+      "page": "L1-02",
+      "device": "land",
+      "epoch": "L1",
+      "sequence": 2,
+      "pass": "nearshore",
+      "line": "T1",
+      "rough": [
+        0,
+        100
+      ],
+      "published": 0,
+      "version": "v1",
+      "size": 115,
+      "offers": {
+        "shore": {
+          "start": 0,
+          "end": 115,
+          "from": 0,
+          "until": 2
+        }
+      }
+    },
+    {
+      "page": "A1-02",
+      "device": "air",
+      "epoch": "A1",
+      "sequence": 2,
+      "pass": "out",
+      "line": "T1",
+      "rough": [
+        100,
+        200
+      ],
+      "published": 0,
+      "version": "v1",
+      "size": 112,
+      "offers": {
+        "shore": {
+          "start": 0,
+          "end": 112,
+          "from": 0,
+          "until": 1
+        }
+      }
+    },
+    {
+      "page": "A2-02",
+      "device": "air",
+      "epoch": "A2",
+      "sequence": 2,
+      "pass": "out",
+      "line": "T1",
+      "rough": [
+        100,
+        200
+      ],
+      "published": 1,
+      "version": "v1",
+      "size": 112,
+      "offers": {
+        "shore": {
+          "start": 0,
+          "end": 112,
+          "from": 1,
+          "until": 3
+        }
+      }
+    },
+    {
+      "page": "A2-03",
+      "device": "air",
+      "epoch": "A2",
+      "sequence": 3,
+      "pass": "return",
+      "line": "T1",
+      "rough": [
+        190,
+        300
+      ],
+      "published": 0,
+      "version": "v1",
+      "size": 115,
+      "offers": {
+        "relay": {
+          "start": 0,
+          "end": 57,
+          "from": 1,
+          "until": 3
+        },
+        "shore": {
+          "start": 57,
+          "end": 115,
+          "from": 2,
+          "until": 3
+        }
+      }
+    },
+    {
+      "page": "A2-03",
+      "device": "air",
+      "epoch": "A2",
+      "sequence": 3,
+      "pass": "return",
+      "line": "T1",
+      "rough": [
+        190,
+        300
+      ],
+      "published": 3,
+      "version": "v2",
+      "size": 115,
+      "offers": {
+        "relay": {
+          "start": 0,
+          "end": 57,
+          "from": 2,
+          "until": 5
+        },
+        "shore": {
+          "start": 57,
+          "end": 115,
+          "from": 3,
+          "until": 5
+        }
+      }
+    },
+    {
+      "page": "B1-08",
+      "device": "boat",
+      "epoch": "B1",
+      "sequence": 8,
+      "pass": "shoal",
+      "line": "T1",
+      "rough": [
+        100,
+        225
+      ],
+      "published": 0,
+      "version": "v1",
+      "size": 111,
+      "offers": {
+        "shore": {
+          "start": 0,
+          "end": 111,
+          "from": 0,
+          "until": 3
+        }
+      }
+    },
+    {
+      "page": "B1-09",
+      "device": "boat",
+      "epoch": "B1",
+      "sequence": 9,
+      "pass": "shoal",
+      "line": "T2",
+      "rough": [
+        100,
+        200
+      ],
+      "published": 3,
+      "version": "v1",
+      "size": 105,
+      "offers": {
+        "shore": {
+          "start": 0,
+          "end": 105,
+          "from": 3,
+          "until": 5
+        }
+      }
+    }
+  ],
+  "objects": {
+    "L1-02": [
+      {
+        "link": "shore",
+        "version": "v1",
+        "from": 0,
+        "until": 2,
+        "start": 0,
+        "end": 115,
+        "file": "originals/pages/L1-02-v1.json"
+      }
+    ],
+    "A1-02": [
+      {
+        "link": "shore",
+        "version": "v1",
+        "from": 0,
+        "until": 1,
+        "start": 0,
+        "end": 112,
+        "file": "originals/pages/A1-02-v1.json"
+      }
+    ],
+    "A2-02": [
+      {
+        "link": "shore",
+        "version": "v1",
+        "from": 1,
+        "until": 3,
+        "start": 0,
+        "end": 112,
+        "file": "originals/pages/A2-02-v1.json"
+      }
+    ],
+    "A2-03": [
+      {
+        "link": "relay",
+        "version": "v1",
+        "from": 1,
+        "until": 3,
+        "start": 0,
+        "end": 57,
+        "file": "originals/pages/A2-03-v1.json"
+      },
+      {
+        "link": "shore",
+        "version": "v1",
+        "from": 2,
+        "until": 3,
+        "start": 57,
+        "end": 115,
+        "file": "originals/pages/A2-03-v1.json"
+      },
+      {
+        "link": "relay",
+        "version": "v2",
+        "from": 2,
+        "until": 5,
+        "start": 0,
+        "end": 57,
+        "file": "originals/pages/A2-03-v2.json"
+      },
+      {
+        "link": "shore",
+        "version": "v2",
+        "from": 3,
+        "until": 5,
+        "start": 57,
+        "end": 115,
+        "file": "originals/pages/A2-03-v2.json"
+      }
+    ],
+    "B1-08": [
+      {
+        "link": "shore",
+        "version": "v1",
+        "from": 0,
+        "until": 3,
+        "start": 0,
+        "end": 111,
+        "file": "originals/pages/B1-08-v1.json"
+      }
+    ],
+    "B1-09": [
+      {
+        "link": "shore",
+        "version": "v1",
+        "from": 3,
+        "until": 5,
+        "start": 0,
+        "end": 105,
+        "file": "originals/pages/B1-09-v1.json"
+      }
+    ]
+  },
+  "links": {
+    "shore": {
+      "capacity": {
+        "0": 290,
+        "1": 210,
+        "2": 170,
+        "3": 300,
+        "4": 180
+      }
+    },
+    "relay": {
+      "capacity": {
+        "1": 100,
+        "2": 110,
+        "3": 170,
+        "4": 110
+      }
+    }
+  },
+  "boats": {
+    "sloop-3": {
+      "locks": 2,
+      "departs": 4,
+      "returns": 6,
+      "capacity": 3,
+      "spans": [
+        "S2",
+        "S3"
+      ],
+      "lose_first_reply": true
+    },
+    "launch-5": {
+      "locks": 3,
+      "departs": 5,
+      "returns": 7,
+      "capacity": 2,
+      "spans": [
+        "S1",
+        "S2"
+      ]
+    }
+  },
+  "field_returns": {
+    "/field/H37": {
+      "file": "originals/field/H37.json",
+      "round": 6
+    }
+  }
+}
